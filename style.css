@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  height: 100vh;
+
+  background-image: url(background/b8ecde0b470c7e797666d63ba7a9a9af.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: repeat-x;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 15000% 0;
+  }
+}
+.mobil {
+  width: 300px;
+  left: 20%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+.mobil img {
+  width: 100%;
+}
